@@ -16,12 +16,12 @@ def start_play():
     # Obtain the user's choice
     game_choice = input("Enter the number of the game you want to play (1-3): ")
 
-    # Validate the game choice
+    # Check the game choice
     if game_choice not in {"1", "2", "3"}:
         print("Invalid choice. Please enter a number between 1 and 3.")
         return
 
-    # difficulty level
+    # Chose the level
     try:
         difficulty_level = int(input("Choose a difficulty level (1-5): "))
         if difficulty_level < 1 or difficulty_level > 5:
