@@ -1,8 +1,8 @@
 def welcome():
-    # Prompt the user to enter their name
+    # user to enter their name
     name = input("Please enter your name: ")
 
-    # Display the personalized welcome message
+    # personalized welcome message
     print(f"Hi {name} and welcome to the World of Games: The Epic Journey")
 
 
@@ -10,13 +10,13 @@ def welcome():
 
 
 def start_play():
-    # Display the list of games
+    # list of games
     print("Please choose a game to play:")
     print("1. Memory Game - a sequence of numbers will appear for 1 second and you have to guess it back.")
     print("2. Guess Game - guess a number and see if you chose like the computer.")
     print("3. Currency Roulette - try and guess the value of a random amount of USD in ILS.")
 
-    # Get the user's choice
+    # Obtain the user's choice
     game_choice = input("Enter the number of the game you want to play (1-3): ")
 
     # Validate the game choice
