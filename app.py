@@ -1,13 +1,10 @@
+
 def welcome():
     # user to enter their name
     name = input("Please enter your name: ")
 
     # personalized welcome message
     print(f"Hi {name} and welcome to the World of Games: The Epic Journey")
-
-
-# Call the function to test it
-
 
 def start_play():
     # list of games
